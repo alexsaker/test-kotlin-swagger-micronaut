@@ -1,7 +1,11 @@
 micronaut:
     application:
         name: kotlinswagtest
-                
+    router:
+        static-resources:
+            swagger:
+                paths: classpath:META-INF/swagger
+                mapping: /swagger/**
 #Uncomment to set server port
-#    server:
-#        port: 8080
+    server:
+        port: 8082
