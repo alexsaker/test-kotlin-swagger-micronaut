@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: kotlinswagtest
+---
+testFramework: spek
+sourceLanguage: kotlin
